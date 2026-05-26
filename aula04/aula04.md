@@ -81,7 +81,7 @@ matriz = [[1, 2, 3],
 
 ```python
 # Filtrando de elementos de uma lista
-# criar uma nova lista apenas com os intens com 5 caracteres ou menos
+# criar uma nova lista apenas com os itens com 5 caracteres ou menos
 
 nomes_original = ['Miguel', 'Arthur', 'Heitor', 'Helena', 'Alice', 'Laura', 'Gabriel', 'Davi', 'Maria Clara', 'Pedro', 'Yoda', 'Caio']
 nomes_selecionados = []

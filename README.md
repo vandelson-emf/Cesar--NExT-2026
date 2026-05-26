@@ -11,8 +11,8 @@ Material das aulas de Fundamentos de Python Aplicado a Dados da CESAR School do 
 | Aula 01 - O Retorno | [Colab](https://colab.research.google.com/drive/14iGkSmW5g5at0qHNEHriugZfMkxw8Ygh?usp=sharing) |
 | Aula 02 - Listas | [Colab](https://colab.research.google.com/drive/1T0yTUuse17F6KmVC93qHARvLq2-6ssZi?usp=sharing) |
 | Aula 03 - Estruturas de Repetição (`while`) | [Colab](https://colab.research.google.com/drive/13dKACoqiZnKl5HTcAhAZVfBfmh7Cdu_z?usp=sharing) |
-| Aula 04 - Estruturas de Repetição (`for`) | [Ambiente](/aula04/ambiente.md) - [Conteúdo](/aula04/aula04.md) |
-| Aula 05 - Função | _em breve_ |
+| Aula 04 - Estruturas de Repetição (`for`) | [Ambiente](/aula04/ambiente.md) - [Conteúdo](/aula04/aula04.md) - [Práticas](/aula04/praticas/) - [Exercícios Resolvidos](/aula04/exercicios/) |
+| Aula 05 - Função | [Conteúdo](/aula05/README.md) |
 | Aula 06 - Arquivos | _em breve_ |
 | Aula 07 - Tratamento de Exceções | _em breve_ |
 | Aula 08 - Estruturas de Dados | _em breve_ |
