@@ -46,4 +46,12 @@
 # for numero in range(1, 101):
 #     if numero % 2 == 0: print(numero, end=' ')
 
-for numero in range(2, 101, 2): print(numero, end=' ')
+# for numero in range(2, 101, 2): print(numero, end=' ')
+
+nomes_original = ["Alice", "Bob", "Charlie", "Diana", "Eve"]
+nomes_selecionados = []
+
+nomes_selecionados = list(filter(lambda nome: len(nome) < 5, nomes_original)) 
+
+print(f'Nomes Original: {nomes_original}')
+print(f'Nomes Selecionados: {nomes_selecionados}')

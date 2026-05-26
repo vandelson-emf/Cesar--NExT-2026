@@ -95,14 +95,14 @@ nomes_selecionados = []
 
 ### Estruturas de Repetição
 
-| **Característica** | **`while`** | **`for`** |
-| ------------------ | ----------- | --------- |
-| **Uso principal** | Usado quando não se sabe quantas iterações serão necessárias | Usado quando se sabe o número de iterações ou ao iterar sobre uma sequência |
-| **Condição de parada** | Continua enquanto a condição especificada for verdadeira | Itera sobre uma sequência (como lista, tupla, string) ou usa `range` |
-| **Controla a iteração?** | Sim, diretamente com uma condição booleana | Não diretamente, o número de iterações é controlado pela sequência |
-| **Ideal para** | Loops indeterminados (quando o número de repetições depende de uma condição) | Loops determinados (quando se sabe o número exato de iterações) |
-| **Flexibilidade** | Mais flexível, pode ser usado para uma variedade de situações baseadas em condições | Menos flexível, pois depende de um iterável ou de uma sequência |
-| **Eficiência** | Pode ser menos eficiente se a condição não for controlada corretamente | Geralmente mais eficiente e fácil de usar em iterações simples |
+| **Característica**       | **`while`**                                                                         | **`for`**                                                                   |
+| ------------------------ | ----------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| **Uso principal**        | Usado quando não se sabe quantas iterações serão necessárias                        | Usado quando se sabe o número de iterações ou ao iterar sobre uma sequência |
+| **Condição de parada**   | Continua enquanto a condição especificada for verdadeira                            | Itera sobre uma sequência (como lista, tupla, string) ou usa `range`        |
+| **Controla a iteração?** | Sim, diretamente com uma condição booleana                                          | Não diretamente, o número de iterações é controlado pela sequência          |
+| **Ideal para**           | Loops indeterminados (quando o número de repetições depende de uma condição)        | Loops determinados (quando se sabe o número exato de iterações)             |
+| **Flexibilidade**        | Mais flexível, pode ser usado para uma variedade de situações baseadas em condições | Menos flexível, pois depende de um iterável ou de uma sequência             |
+| **Eficiência**           | Pode ser menos eficiente se a condição não for controlada corretamente              | Geralmente mais eficiente e fácil de usar em iterações simples              |
 
 ## 🐝 Exercícios Beecrowd
 
