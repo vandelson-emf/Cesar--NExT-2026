@@ -27,13 +27,15 @@ def conversor(numero):
         'nove': 9
     }
     
-    if isinstance(numero, int):
-        return numeros_extenso.get(int(numero), 'Número inválido')
+    if isinstance(numero, int) and (0 <= numero <= 9):
+        return numeros_extenso.get(numero, 'Número inválido')
         #return list(numeros_extenso.keys())[list(numeros_extenso.values()).index(numero)]
     else:
         return numeros_extenso[numero]
     
-teste = ['cinco', 'dois', 6, 'nove', 0, 3]
+teste = ['cinco', 'dois', 6, 'nove', 10, 3]
 
 for numero in teste:
     print(conversor(numero))
+
+print (conversor('dez'))  # Teste para número inválido
