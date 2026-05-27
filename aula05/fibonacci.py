@@ -10,17 +10,17 @@
 #         sequencia.append(atual)
 #     print (sequencia)
 
-n = int(input())
+def fibonacci(n):
+    anterior, atual = 0, 1
 
-anterior, atual = 0, 1
+    sequencia = [anterior, atual]
 
-sequencia = [anterior, atual]
+    if n <= 46:
+        for i in range (2, n):
+            anterior, atual = atual, anterior + atual
+            sequencia.append(atual)
+        
+        return sequencia
 
-if n <= 46:
-    for i in range (2, n):
-        anterior, atual = atual, anterior + atual
-        sequencia.append(atual)
-    
-    for item in sequencia:
-        print (item, end = ' ')
+print(*fibonacci(10))
     
