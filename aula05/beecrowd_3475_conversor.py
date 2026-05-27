@@ -14,28 +14,17 @@ Para cada caso de teste, imprima o valor devidamente convertido.
 '''
 
 def conversor(numero):
-    numeros_extenso = {
-        'zero': 0,
-        'um': 1,
-        'dois': 2,
-        'três': 3,
-        'quatro': 4,
-        'cinco': 5,
-        'seis': 6,
-        'sete': 7,
-        'oito': 8,
-        'nove': 9
-    }
-    
-    if isinstance(numero, int) and (0 <= numero <= 9):
-        return numeros_extenso.get(numero, 'Número inválido')
-        #return list(numeros_extenso.keys())[list(numeros_extenso.values()).index(numero)]
+    extenso = ['zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove']
+
+    if isinstance(numero, int) and 0 <= numero <= 9:
+        print (extenso[int(numero)])
+    elif isinstance(numero, str) and numero in extenso:
+        print (extenso.index(numero))
     else:
-        return numeros_extenso[numero]
+        print('Número inválido')
     
 teste = ['cinco', 'dois', 6, 'nove', 10, 3]
 
-for numero in teste:
-    print(conversor(numero))
 
-print (conversor('dez'))  # Teste para número inválido
+for numero in teste:
+    conversor(numero)
