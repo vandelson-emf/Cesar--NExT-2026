@@ -117,8 +117,6 @@ finally:
 
 ## 🐝 Exercícios Beecrowd
 
-[2653 - Dijkstra](https://www.beecrowd.com.br/judge/pt/problems/view/2653)
-
 [1068 - Balanço de Parênteses I](https://judge.beecrowd.com/pt/problems/view/1068)
 
 [3038 - Carta de Natal Criptografada](https://judge.beecrowd.com/pt/problems/view/3038)
