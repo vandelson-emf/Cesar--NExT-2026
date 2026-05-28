@@ -1,0 +1,4 @@
+First
+a linha do arquivo
+Outra linha no arquivo
+Estou escrevendo no arquivo
