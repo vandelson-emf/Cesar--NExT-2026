@@ -1,4 +1,4 @@
-arquivo = open ('aula06/arquivo_texto.txt', encoding='utf-8')
+# arquivo = open ('aula06/arquivo_texto.txt', encoding='utf-8')
 
 # conteudo = arquivo.read()
 
