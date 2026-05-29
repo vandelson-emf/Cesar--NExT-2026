@@ -1,8 +1,17 @@
 # 🐍 LLM Tutor Python
 
+## ✨ Chats prontos
+
+Essas IAs estão configuradas com os conteúdos das aulas. Peça ajua com uma questão, tema ou peça que ele crie um exercício para você!
+
+- [Google Gemini](https://gemini.google.com/gem/1sBBOVfN35QdjhuIcky5VTQCJRknuU_5r?usp=sharing)
+- [ChatGPT](https://chatgpt.com/g/g-6a18e98040988191b6067f7e37166d7c-llm-tutor-python)
+
+## 🧾 Prompt
+
 Copie e cole o prompt a seguir como mensagem inical em seu chat de IA favorito (ChatGPT, Gemini, Claude...).
 
-```txt
+```markdown
 # LLM Tutor Python do NExT
 
 ## Contexto e Papel

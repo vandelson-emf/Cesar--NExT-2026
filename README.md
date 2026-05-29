@@ -46,4 +46,4 @@ Para quem gosta de estudar por livros, temos essas sugestões:
 
 ## LLM Tutor Python do NExT
 
-[Acesse aqui um prompt para LLM criado especialmente para vocês!](/LLM_tutor.md)
+✨ [Acesse aqui um prompt para LLM criado especialmente para vocês!](/LLM_tutor.md)
