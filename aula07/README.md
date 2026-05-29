@@ -97,6 +97,10 @@ finally:
     print('Encerrando operação.')
 ```
 
+### As Exceções do Python
+
+> ℹ️ Consulte todas as exceções do Python [aqui](https://docs.python.org/3/library/exceptions.html)
+
 ## Boas Práticas no Tratamento de Exceções
 
 1. Trate apenas as exceções esperadas.
