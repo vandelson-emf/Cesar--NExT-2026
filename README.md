@@ -15,10 +15,10 @@ Material das aulas de Fundamentos de Python Aplicado a Dados da CESAR School do 
 | Aula 05 - Função | [Conteúdo](/aula05/README.md)  - [Práticas](/aula05/praticas/)  - [Exercícios Resolvidos](/aula05/exercicios/) |
 | Aula 06 - Arquivos | [Conteúdo](/aula06/README.md) - [Práticas](/aula06/praticas/) - [Exercícios Resolvidos](/aula06/exercicios/) |
 | Aula 07 - Tratamento de Exceções | [Conteúdo](/aula07/README.md) - [Práticas](/aula07/praticas/)  - [Exercícios Resolvidos](/aula07/exercicios/) |
-| Aula 08 - Estruturas de Dados | _em breve_ |
+| Aula 08 - Estruturas de Dados | [Conteúdo](/aula08/README.md) |
 | Aula 09 - Módulos e Pacotes | _em breve_ |
-| Aula 10 - Pandas e Numpy | _em breve_ |
-| Aula 11 - Pandas e Numpy | _em breve_ |
+| Aula 10 - Numpy | _em breve_ |
+| Aula 11 - Pandas | _em breve_ |
 
 ## 🥇 Equipe
 
@@ -28,6 +28,10 @@ Material das aulas de Fundamentos de Python Aplicado a Dados da CESAR School do 
 * [Pedro Bedor](https://www.linkedin.com/in/pedrobedor/)
 * [Ramon Ribeiro](https://www.linkedin.com/in/ramonhpr/)
 * [Thiago Brayner](https://www.linkedin.com/in/thiago-brayner-5aa44b247/)
+
+### Extra
+
+* [Ambientes Virtuais e Instação de Bibliotecas Externas](/venv_pip.md)
 
 ### Sugestões
 

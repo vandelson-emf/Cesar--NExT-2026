@@ -15,15 +15,15 @@
 
 ## Pipeline ETL
 
-No tabalho com dados, é comum implementarmos processos chamados de ETL (Extract, Transform, Load):
+No trabalho com dados, é comum implementarmos processos chamados de ETL (Extract, Transform, Load):
 
 - **Extract (Extrair)**: Extrair dados do usuário, sistemas, APIs ou arquivos;
-- **Transform (Transformar)**: Aplicação de regras de negócio e limpeza dos dados, conventendo os valores e tratando eventuais erros que atrapalhariam a análise;
-- **Load (Carregar)**: Carregar (salvar) os dados transformados em um novo destino, como arqui um arquivo ou no banco de dados.
+- **Transform (Transformar)**: Aplicação de regras de negócio e limpeza dos dados, convertendo os valores e tratando eventuais erros que atrapalhariam a análise;
+- **Load (Carregar)**: Carregar (salvar) os dados transformados em um novo destino, como um arquivo ou banco de dados.
 
 ### Pipeline EDA (Exploratory Data Analysis)
 
-Seguido do ETL, vem a etapa de EDA, que serve para descobrir médias, tendências, gráficos de distribuição.
+Após o ETL, pode vir a etapa de EDA (Exploratory Data Analysis), usada para explorar os dados por meio de estatísticas descritivas, tendências, distribuições, padrões, valores ausentes, outliers e visualizações.
 
 ## Tratamento de Exceções
 
@@ -77,7 +77,7 @@ try:
     numero = int(input('Digite um número: '))
     resultado = 10 / numero
 except (ValueError, ZeroDivisionError):
-    print('Erro: Algo de errado não está certo')
+    print('Erro: informe um número válido e diferente de zero.')
 ```
 
 ## Blocos `else` e `finally`
@@ -86,14 +86,18 @@ except (ValueError, ZeroDivisionError):
 - `finally`: Executado sempre, independentemente de exceções.
 
 ```python
+arquivo = None
+
 try:
-    arquivo = open('dados.txt', 'r')
+    arquivo = open('dados.txt', 'r', encoding='utf-8')
     conteudo = arquivo.read()
 except FileNotFoundError:
     print('Erro: Arquivo não encontrado.')
 else:
     print('Arquivo lido com sucesso!')
 finally:
+    if arquivo is not None:
+        arquivo.close()
     print('Encerrando operação.')
 ```
 
@@ -105,7 +109,13 @@ finally:
 
 1. Trate apenas as exceções esperadas.
 
-    Evite capturar exceções genéricas com `except Exception`.
+    Evite capturar exceções genéricas com `except Exception` quando você não souber exatamente o que fazer com o erro. Quando for necessário capturar uma exceção genérica, registre o erro, informe o problema adequadamente e evite esconder falhas importantes.
+
+    ```python
+    ...
+    except Exception as e:
+        print(f'Erro: {type(e).__name__} - {e}.')
+    ```
 
 2. Seja específico.
 
@@ -134,12 +144,13 @@ finally:
 ### [Exercício 01]
 
 Escreva um programa que leia dois números do usuário e calcule a divisão entre eles. Use exceções para tratar:
-    - Erros de entrada (`ValueError`);
-    - Divisão por zero (`ZeroDivisionError`).
+
+- Erros de entrada (`ValueError`);
+- Divisão por zero (`ZeroDivisionError`).
 
 ### [Exercício 02]
 
-Implemente uma função que abra um arquivo para leitura, seguindo informações inseridas pelo usuário, e exiba seu conteúdo. Trate o erro de arquivo não encontrado (`FileNotFoundError`).
+Implemente uma função que solicite ao usuário o nome de um arquivo, tente abri-lo para leitura e exiba seu conteúdo. Trate o erro de arquivo não encontrado (`FileNotFoundError`).
 
 ### [Exercício 03]
 
@@ -147,11 +158,11 @@ Crie uma função que receba um dicionário e uma chave, retornando o valor corr
 
 ### [Exercício 04]
 
-Você recebeu uma conjunto de dados extraídos de um sistema legado. No entanto, o banco de dados está "sujo": alguns cadastros possuem textos informativos ou valores nulos no lugar dos números.
+Você recebeu um conjunto de dados extraído de um sistema legado. No entanto, o banco de dados está "sujo": alguns cadastros possuem textos informativos, valores nulos, campos vazios ou linhas incompletas no lugar dos números.
 
-Dado o arquivo abaixo, escreva um programa que percorra todos os itens, tente converter cada valor de idade e compra para um número `int` e `float`, e adicione as linhas váldias em uma novo arquivo de saída.
+Dado o arquivo abaixo, escreva um programa que percorra todos os itens, tente converter os valores das colunas `idade` e `valor_compra` para `int` e `float`, respectivamente, e adicione as linhas válidas em um novo arquivo de saída.
 
-Imprima a linha com dados sujos sempre que ela for encontrada.
+Sempre que uma linha com dados inválidos for encontrada, imprima essa linha e informe o tipo de erro identificado.
 
 ```c
 id_cliente,nome,idade,valor_compra
