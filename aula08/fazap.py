@@ -52,12 +52,12 @@ print ('*'*20)
 
 for conteudo in linhas:
     print (f'{type(conteudo.split(','))} = {conteudo.split(',')}')
-    print (conteudo.split(',')[0])
+    print (conteudo.split(',')[0]) # assim consigo comparar o conteudo lido no arquivo com o cep informado
 
-    # if conteudo.split(',')[0]==52050220:
-    #     print ('Ok')
-    # else:
-    #     print ('No')
+    if conteudo.split(',')[0]=='52050220':
+        print ('Ok')
+    else:
+        print ('No')
 # for cep, endereco in linhas.split(','):
 #     print (cep)
     # if linha[0]==52050220:
