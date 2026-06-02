@@ -12,13 +12,18 @@ Material das aulas de Fundamentos de Python Aplicado a Dados da CESAR School do 
 | Aula 02 - Listas | [Colab](https://colab.research.google.com/drive/1T0yTUuse17F6KmVC93qHARvLq2-6ssZi?usp=sharing) |
 | Aula 03 - Estruturas de Repetição (`while`) | [Colab](https://colab.research.google.com/drive/13dKACoqiZnKl5HTcAhAZVfBfmh7Cdu_z?usp=sharing) |
 | Aula 04 - Estruturas de Repetição (`for`) | [Ambiente](/aula04/ambiente.md) - [Conteúdo](/aula04/aula04.md) - [Práticas](/aula04/praticas/) - [Exercícios Resolvidos](/aula04/exercicios/) |
-| Aula 05 - Função | [Conteúdo](/aula05/README.md)  - [Práticas](/aula05/praticas/)  - [Exercícios Resolvidos](/aula05/exercicios/) |
+| Aula 05 - Função | [Conteúdo](/aula05/README.md)  - [Práticas](/aula05/praticas/) - [Exercícios Resolvidos](/aula05/exercicios/) |
 | Aula 06 - Arquivos | [Conteúdo](/aula06/README.md) - [Práticas](/aula06/praticas/) - [Exercícios Resolvidos](/aula06/exercicios/) |
-| Aula 07 - Tratamento de Exceções | [Conteúdo](/aula07/README.md) - [Práticas](/aula07/praticas/)  - [Exercícios Resolvidos](/aula07/exercicios/) |
-| Aula 08 - Estruturas de Dados | [Conteúdo](/aula08/README.md) |
+| Aula 07 - Tratamento de Exceções | [Conteúdo](/aula07/README.md) - [Práticas](/aula07/praticas/) - [Exercícios Resolvidos](/aula07/exercicios/) |
+| Aula 08 - Estruturas de Dados | [Conteúdo](/aula08/README.md) - [Práticas](/aula08/praticas/) - [Exercícios Resolvidos](/aula08/exercicios/) |
 | Aula 09 - Módulos e Pacotes | _em breve_ |
 | Aula 10 - Numpy | _em breve_ |
 | Aula 11 - Pandas | _em breve_ |
+
+### ✨ Extra
+
+* [Ambientes Virtuais e Instação de Bibliotecas Externas](/venv_pip.md)
+* [LLM Tutor Python do NExT](/LLM_tutor.md)
 
 ## 🥇 Equipe
 
@@ -28,10 +33,6 @@ Material das aulas de Fundamentos de Python Aplicado a Dados da CESAR School do 
 * [Pedro Bedor](https://www.linkedin.com/in/pedrobedor/)
 * [Ramon Ribeiro](https://www.linkedin.com/in/ramonhpr/)
 * [Thiago Brayner](https://www.linkedin.com/in/thiago-brayner-5aa44b247/)
-
-### Extra
-
-* [Ambientes Virtuais e Instação de Bibliotecas Externas](/venv_pip.md)
 
 ### Sugestões
 
@@ -46,8 +47,4 @@ Para quem gosta de estudar por livros, temos essas sugestões:
 
 ### 📺 YouTube
 
-### 📱 Redes Sociais
-
-## LLM Tutor Python do NExT
-
-✨ [Acesse aqui um prompt para LLM criado especialmente para vocês!](/LLM_tutor.md)
+### 📱 Influencers
