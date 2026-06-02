@@ -51,24 +51,8 @@ print (len(linhas))
 print ('*'*20)
 
 for conteudo in linhas:
-    print (f'{type(conteudo.split(','))} = {conteudo.split(',')}')
-    print (conteudo.split(',')[0]) # assim consigo comparar o conteudo lido no arquivo com o cep informado
 
     if conteudo.split(',')[0]=='52050220':
         print ('Ok')
     else:
         print ('No')
-# for cep, endereco in linhas.split(','):
-#     print (cep)
-    # if linha[0]==52050220:
-    #     print (f'Endereço localizado {linha[1]} para o CEP 52050220.' )
-    # else:
-    #     print (f'Endereço não localizado para o CEP 52050220.' )
-
-#print (consultar_endereco (base, 52050220))
-# print (consultar_endereco (base, 52050221))
-# print (consultar_endereco (base, 52050224))
-
-      
-        
-
