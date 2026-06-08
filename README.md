@@ -16,9 +16,9 @@ Material das aulas de Fundamentos de Python Aplicado a Dados da CESAR School do 
 | Aula 06 - Arquivos | [Conteúdo](/aula06/README.md) - [Práticas](/aula06/praticas/) - [Exercícios Resolvidos](/aula06/exercicios/) |
 | Aula 07 - Tratamento de Exceções | [Conteúdo](/aula07/README.md) - [Práticas](/aula07/praticas/) - [Exercícios Resolvidos](/aula07/exercicios/) |
 | Aula 08 - Estruturas de Dados | [Conteúdo](/aula08/README.md) - [Práticas](/aula08/praticas/) - [Exercícios Resolvidos](/aula08/exercicios/) |
-| Aula 09 - Módulos e Pacotes | [Conteúdo](/aula09/README.md) - [Práticas](/aula09/praticas/) |
-| Aula 10 - Numpy | _em breve_ |
-| Aula 11 - Pandas | _em breve_ |
+| Aula 09 - Módulos e Pacotes | [Conteúdo](/aula09/README.md) - [Práticas](/aula09/praticas/) - [Exercícios Resolvidos](/aula09/exercicios/) |
+| Aula 10 - Numpy | [Conteúdo](/aula10/README.md) - [Práticas](/aula10/praticas/) - [Exercícios Resolvidos](/aula10/exercicios/) |
+| Aula 11 - Pandas | [Conteúdo](/aula11/README.md) - [Práticas](/aula11/praticas/) - [Exercícios Resolvidos](/aula11/exercicios/) |
 
 ### ✨ Extra
 
@@ -47,4 +47,11 @@ Para quem gosta de estudar por livros, temos essas sugestões:
 
 ### 📺 YouTube
 
+* [Hashtag Programação](https://www.youtube.com/@HashtagProgramacao)
+* [Guanabara](https://www.youtube.com/@cursoemvideo)
+* [Rafaella Ballerini](https://www.youtube.com/@rafaellaballerini)
+* [Fernanda Kipper](https://www.youtube.com/@kipperdev)
+
 ### 📱 Influencers
+
+* <https://www.instagram.com/pablo_aa/>

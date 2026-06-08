@@ -1,0 +1,9 @@
+data,vendedor,cidade,produto,categoria,quantidade,valor_unitario
+2026-01-05,Ana,Recife,Notebook,Eletrônicos,2,3500
+2026-01-05,Bruno,Olinda,Mouse,Periféricos,5,80
+2026-01-06,Ana,Recife,Teclado,Periféricos,3,150
+2026-01-06,Carlos,Jaboatão,Monitor,Eletrônicos,2,1200
+2026-01-07,Duda,Recife,Cadeira,Escritório,4,600
+2026-01-07,Carlos,Olinda,Notebook,Eletrônicos,1,3500
+2026-01-08,Bruno,Recife,Mouse,Periféricos,10,80
+2026-01-08,Ana,Jaboatão,Cadeira,Escritório,2,600
